@@ -34,6 +34,7 @@ class AsignarGrupo : AppCompatActivity() {
                 runOnUiThread {
                     Toast.makeText(this,
                         getString(R.string.asignacion_completada),Toast.LENGTH_SHORT).show()
+                    finish()
                 }
                 cargarAlumnos()
                 cargarGrupos()
