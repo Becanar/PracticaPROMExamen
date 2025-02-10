@@ -1,3 +1,33 @@
 <resources>
-    <string name="app_name">PracticaPROM</string>
+    <string name="app_name">Practica PROM</string>
+    <string name="alumno">Estudiante</string>
+    <string name="profesor">Profesor</string>
+    <string name="usuario">Nombre de Usuario</string>
+    <string name="cintrase_a">Contraseña</string>
+    <string name="el_ususario_ya_existe">El usuario ya existe</string>
+    <string name="debes_completar_los_campos_usuario_y_contrase_a_para_poder_insertar_al_alumno">Por favor, complete los campos de usuario y contraseña para registrar al estudiante</string>
+    <string name="insertar">Registrar</string>
+    <string name="debes_poner_un_codigo_de_grupo_para_poder_crearlo">Debes ingresar un código de grupo para crear uno nuevo</string>
+    <string name="el_grupo_ya_existe">El grupo ya existe</string>
+    <string name="asignar">Asignar Grupo</string>
+    <string name="asignacion_completada">Asignación completada con éxito</string>
+    <string name="iniciar_sesion">Iniciar sesión</string>
+    <string name="debes_introducir_el_usuario_y_la_contrase_a_para_poder_iniciar_sesion">Debes ingresar tu usuario y contraseña para iniciar sesión</string>
+    <string name="usuario_o_contrase_a_incorrectos">Usuario o contraseña incorrectos</string>
+    <string name="asmakizuna1">Desde la estación salieron muchos trenes. Mira hacia donde siempre se encuentran los viajeros. ¿Qué objeto indica las salidas y llegadas? Marca las horas que han pasado con el sonido del "tic-tac".</string>
+    <string name="asmakizuna2">Dos líneas paralelas y brillantes transportan historias del pasado. ¿Qué son? Trenes rápidos y vagones cargados que los llevan.</string>
+    <string name="asmakizuna3">Cientos de personas han viajado en mí, y he ido sobre ruedas en cada estación. Estoy hecho de metal, madera y vapor, ¿quién soy en este lugar?</string>
+    <string name="asmakizuna4">Si quieres viajar lejos o cerca, antes de ir, debes venir a mí. Aquí cambias tu dinero por un pase especial para viajar en un tren único.</string>
+    <string name="leihatila">VENTANILLA</string>
+    <string name="tren_bagoi_bat">UN VAGÓN DE TREN</string>
+    <string name="erlojua">RELOJ</string>
+    <string name="trenbidea">ESTACIÓN DE TREN</string>
+    <string name="cancion">El otro día, cuando llovía, vi a mi novia la (1) y le dije con gran entusiasmo: Tápate eso, tápate eso, que me mareo. Tengo un novio (2) que se llama Nicolás; si lo quieres conocer, (3) y lo verás. Parabapapapapá... Un señorito me dijo anoche que si quería pasear en coche, y yo le dije con gran entusiasmo: No quiero coche, no quiero coche... (4)!</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="comprobar">Verificar</string>
+    <string name="algun_texto_no_es_correcto">Algún texto no es correcto</string>
+    <string name="grupo">GRUPO: </string>
 </resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FillTheGaps">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="@string/cancion"
+        android:textSize="18sp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/gHor2"
+        app:layout_constraintEnd_toStartOf="@+id/gVer2"
+        app:layout_constraintStart_toStartOf="@+id/gVer1"
+        app:layout_constraintTop_toTopOf="@+id/gHor1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gHor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gHor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gHor3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gVer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gVer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <EditText
+        android:id="@+id/txtPantorrilla"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/_1"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@id/txtSubeArriba"
+        app:layout_constraintEnd_toStartOf="@id/txtChiquitin"
+        app:layout_constraintStart_toStartOf="@+id/gVer1"
+        app:layout_constraintTop_toBottomOf="@id/gHor2" />
+
+    <EditText
+        android:id="@+id/txtChiquitin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/_2"
+        app:layout_constraintBottom_toTopOf="@id/txtMareo"
+        app:layout_constraintEnd_toStartOf="@+id/gVer2"
+        app:layout_constraintStart_toEndOf="@id/txtPantorrilla"
+        app:layout_constraintTop_toTopOf="@+id/gHor2" />
+
+    <EditText
+        android:id="@+id/txtSubeArriba"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/_3"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@id/gHor3"
+        app:layout_constraintEnd_toStartOf="@id/txtMareo"
+        app:layout_constraintStart_toEndOf="@id/gVer1"
+        app:layout_constraintTop_toBottomOf="@id/txtPantorrilla" />
+
+    <EditText
+        android:id="@+id/txtMareo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/_4"
+        app:layout_constraintBottom_toTopOf="@id/gHor3"
+        app:layout_constraintEnd_toStartOf="@id/gVer2"
+        app:layout_constraintStart_toEndOf="@id/txtSubeArriba"
+        app:layout_constraintTop_toBottomOf="@id/txtChiquitin" />
+
+    <Button
+        android:id="@+id/btnComprobar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/comprobar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/gVer2"
+        app:layout_constraintStart_toStartOf="@+id/gVer1"
+        app:layout_constraintTop_toTopOf="@+id/gHor3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

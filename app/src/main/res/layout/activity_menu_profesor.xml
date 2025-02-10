@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuProfesor">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gHor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gHor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gVer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gVer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <Button
+        android:id="@+id/btnAniadirAlumno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Añadir alumno"
+        app:layout_constraintBottom_toTopOf="@+id/btnAniadirGrupo"
+        app:layout_constraintEnd_toStartOf="@+id/gVer2"
+        app:layout_constraintStart_toStartOf="@+id/gVer1"
+        app:layout_constraintTop_toTopOf="@+id/gHor1" />
+
+    <Button
+        android:id="@+id/btnAniadirGrupo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Añadir grupo"
+        app:layout_constraintBottom_toTopOf="@+id/btnAsignarGrupo"
+        app:layout_constraintEnd_toStartOf="@+id/gVer2"
+        app:layout_constraintStart_toStartOf="@+id/gVer1"
+        app:layout_constraintTop_toBottomOf="@id/btnAniadirAlumno"/>
+
+    <Button
+        android:id="@+id/btnAsignarGrupo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asignar grupo"
+        app:layout_constraintBottom_toTopOf="@+id/btnConsultarPuntuacion"
+        app:layout_constraintEnd_toStartOf="@+id/gVer2"
+        app:layout_constraintStart_toStartOf="@+id/gVer1"
+        app:layout_constraintTop_toBottomOf="@id/btnAniadirGrupo"/>
+
+    <Button
+        android:id="@+id/btnConsultarPuntuacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consultar puntuacion de grupos"
+        app:layout_constraintBottom_toTopOf="@+id/gHor2"
+        app:layout_constraintEnd_toStartOf="@+id/gVer2"
+        app:layout_constraintStart_toStartOf="@+id/gVer1"
+        app:layout_constraintTop_toBottomOf="@id/btnAsignarGrupo"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
