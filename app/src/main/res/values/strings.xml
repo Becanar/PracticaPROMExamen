@@ -28,6 +28,7 @@
     <string name="_3">3</string>
     <string name="_4">4</string>
     <string name="grupo_creado_correctamente">GRUPOMOLA</string>
+    <string name="alumno_creado_correctamente">ALUMNOMOLA</string>
     <string name="comprobar">Verificar</string>
     <string name="algun_texto_no_es_correcto">Algún texto no es correcto</string>
     <string name="grupo">GRUPO: </string>
